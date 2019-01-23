@@ -10,6 +10,20 @@
 
         <div class="field">
 
+            <label class="label" for="title">Employee ID</label>
+
+
+            <div class="control">
+
+                <input type="text" class="input" name="employeeid" placeholder="Employee ID" value="{{ $employees->employeeid }}">
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
             <label class="label" for="title">Employee Name</label>
 
 
